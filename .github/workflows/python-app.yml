@@ -22,6 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install -r requirements.txt
     - name: Run run_python.py file
       run: |
-        python run_python.py
+        python run_np.py 1,2,3 5,6,7
