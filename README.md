@@ -29,7 +29,7 @@
 - git checkout `<hashcode>`
 - git checkout master <-- if you want to return to the main or latest commitment
 
-- git checkout <branchname> <-- will move to this branchname
+- git checkout `<branchname>` <-- will move to this branchname
 
 `-- Git branch --`
 - git branch `<branchname>` <-- to create branch name
