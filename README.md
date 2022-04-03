@@ -37,7 +37,7 @@
 
 - git checkout -b `<branchname>` <-- it will first create branch branchname and then will checkout this branchname
 
--- Git merge --
+`-- Git merge --`
 let say branch names are: `dev` and `sahil/multiply`
 
 dev
@@ -48,6 +48,7 @@ dev
 - When you checkout in dev, they do not know what sub-branch did it. After modification or new feature made it, we want to bring these features into parent branch.
 - To do that, first go the parent branch,
 current branch (dev): git merge <branchname>
+  
 Ex:- git merge sahil/multiply  <-- this will update feature to parent branch
 
 
