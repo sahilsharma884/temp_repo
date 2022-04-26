@@ -30,6 +30,7 @@
 - git checkout master <-- if you want to return to the main or latest commitment
 
 - git checkout `<branchname>` <-- will move to this branchname
+- git checkout --patch `<fromBranch>` `<filename>` <-- This will update in `currentBranch` of the `<filename>` that was modified by `<fromBranch>`
 
 `-- Git branch --`
 - git branch `<branchname>` <-- to create branch name
